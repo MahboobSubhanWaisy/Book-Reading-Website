@@ -1,0 +1,23 @@
+.box-search-content .row
+{
+    border-bottom: 1px solid #ebebeb;
+}
+.box-search-content .found-text
+{
+    text-align: left;
+    text-indent: .5rem;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #93a1af;
+}
+
+.box-search-content .row .quick-view-btn
+{
+    color: #17a2b8;
+    
+}
+
+.box-search-content .row .quick-view-btn:hover
+{
+    color: #f2b421;
+}

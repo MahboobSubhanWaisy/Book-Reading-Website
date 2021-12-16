@@ -1,0 +1,41 @@
+.rtl
+{
+    direction: rtl !important;
+}
+
+.mean-nav-rtl
+{
+    text-align: right !important;
+}
+
+.owl-theme-rtl
+{
+    direction: ltr !important;
+}
+
+.slider-center-rtl
+{
+    direction: ltr !important;
+}
+
+.copyright__wrapper__rtl
+{
+    direction: ltr !important;
+}
+
+.p-rtl
+{
+    margin-left: 1rem;
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.text-align-right
+{
+    text-align: right !important;
+}
+
+.indent
+{
+    text-indent: 1rem;
+}

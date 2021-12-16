@@ -1,0 +1,152 @@
+.rating-section{
+    display: none;
+}
+.ratin-wrapper{
+    direction: rtl;
+    margin-bottom: 2rem;
+}
+.ratin-wrapper input{
+    display: none;
+}
+.ratin-wrapper label{
+    display: inline-block;
+    width: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.ratin-wrapper label:before{
+    content: "\2605";
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+.ratin-wrapper label:after{
+    content: "\2605";
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: #FFD700;
+    opacity: 0;
+}
+.ratin-wrapper label:hover:after{
+    opacity: 1;
+}
+.ratin-wrapper label:hover:after,
+.ratin-wrapper label:hover ~ label:after,
+.ratin-wrapper input:checked ~ label:after{
+    opacity: 1;
+}
+
+div#rate-value{
+   margin-top: .7rem;
+   margin-left: .2rem; 
+}
+
+.over-all{
+    font-size: 2.9rem; 
+    color: #be5a0e;
+}
+div.stars{
+    font-size: 1.1rem;
+    line-height: 0rem;
+}
+i.color{
+    color: #eb8a2f;
+}
+i.m-right{
+    margin-right: .3rem;
+}
+i.m__right{
+    margin-right: .3rem;
+}
+.m__top{
+    margin-top: -.8rem;
+}
+h6.rate-name{
+    line-height: 2rem; 
+    letter-spacing: .1rem; 
+    font-weight: 700; 
+    color: #be5a0e;
+}
+div.progress-height{
+    height: .6rem;
+    background-color: #eee;
+}
+div.star-progress{
+    padding-top: .7rem;
+}
+div.d-flex{
+    margin-top: .3rem;
+}
+.percentage{
+    margin-left: .5rem;
+    margin-top: -.2rem;
+}
+.percentage, .comment-date{
+    font-size: .9rem;
+    color: #0f7c90;
+}
+.comment-date{
+    margin-left: 1rem;
+}
+.font-weight-middle{
+    font-weight: 600 !important;
+}
+div.rate-btn-position{
+    position: absolute;
+}
+button.rate-btn{
+    background: #f2b421ab;
+    border: 0 none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 10px 0 10px;
+    text-transform: uppercase;
+    margin-left: -.5rem;
+}
+div.client-comment{
+    margin-top: 3rem !important;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    div.stars{
+        display: none;
+    }
+    .over-all{
+        display: inline;
+    }
+    h6.rate-name{
+        display: inline;
+        margin-left: .5rem;
+    }
+    div.star-progress{
+        width: 50%;
+    }
+    div.five-star{
+        width: 50%;
+    }
+    div.m__top{
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+    div.rate-btn-position{
+        position: absolute;
+        margin-top: 8.4rem;
+        margin-left: 0;
+    }
+    button.rate-btn{
+        width: 100%;
+    }
+    div.client-comment{
+        margin-top: 2rem !important;
+    }
+}
